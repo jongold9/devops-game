@@ -18,6 +18,7 @@ def play_game():
         "Ansible": [q for q in questions_answers if "(Ansible)" in q],
         "Kubernetes": [q for q in questions_answers if "(Kubernetes)" in q],
         "Bash": [q for q in questions_answers if "(Bash)" in q],
+        "Python": [q for q in questions_answers if "(Python)" in q],
     }
     
     print("Выберите тему для вопросов:")
