@@ -134,6 +134,16 @@ questions_answers = {
     "Сжатие файлов (Bash).": "zip",
     "Распаковка файлов (Bash).": "unzip",
     "Отправка HTTP-запросов (Bash).": "curl",
+    "Вывод пути к текущему рабочему каталогу (Bash).": "pwd",
+    "Переход в домашний каталог пользователя (Bash).": "cd ~",
+    "Переход на один уровень вверх по каталогу (Bash).": "cd ..",
+    "Сравнение содержимого двух файлов (Bash).": "diff file1 file2",
+    "Вывод последних строк файла (Bash).": "tail -n 10 filename",
+    "Вывод первых строк файла (Bash).": "head -n 10 filename",
+    "Подсчет количества строк, слов и символов в файле (Bash).": "wc filename",
+    "Создание архива tar.gz (Bash).": "tar -czvf archive.tar.gz directory/",
+    "Распаковка архива tar.gz (Bash).": "tar -xzvf archive.tar.gz",
+    "Отображение использования памяти (Bash).": "free -h",
 
     # Python
     "Создание функции в Python.": "def function_name():",
@@ -165,5 +175,5 @@ questions_answers = {
     "Объединение строк в Python.": "' '.join(['Hello', 'world'])",
     "Разделение строки в Python.": "'Hello world'.split()",
     "Форматирование строки в Python.": "'Hello, {}'.format(name)",
-    
+
 }
